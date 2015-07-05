@@ -12,10 +12,10 @@ class ArcadianAnimal
   protected
 
   def self.animals
-    File.read('lib/animals.txt').split("\n")
+    File.read(File.expand_path('lib/animals.txt')).split("\n")
   end
 
   def self.adjectives
-    File.read('lib/adjectives.txt').split("\n")
+    File.read(File.expand_path('lib/adjectives.txt')).split("\n")
   end
 end
