@@ -19,12 +19,12 @@ Or install it yourself as:
 ## Usage
 
 ```
-AcadianAnimal.random
+ArcadianAnimal.random
 => "hubristic_wasp"
 => "meretricious_badger"
 => "invidious_swordfish"
 
-AcadianAnimal.illiteritive
+ArcadianAnimal.illiteritive
 => "salubrious_sloth"
 => "zealous_zebra"
 => "platitudinous_parrot"
