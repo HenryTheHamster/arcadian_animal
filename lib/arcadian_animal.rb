@@ -1,12 +1,12 @@
 class ArcadianAnimal
   def self.random
-    "#{adjectives.sample}_#{animals.sample}"
+    "#{adjectives.sample}-#{animals.sample}"
   end
 
   def self.illiterative
     adj = adjectives.sample
     ani = animals.select { |a| a[0] == adj[0] }.sample
-    "#{adj}_#{ani}"
+    "#{adj}-#{ani}"
   end
 
   protected
