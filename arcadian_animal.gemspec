@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |s|
   s.name        = 'arcadian_animal'
-  s.version     = '0.0.5'
+  s.version     = '0.0.6'
   s.date        = '2015-07-05'
   s.summary     = 'ArcadianAnimal'
   s.description = 'A simple server naming gem'
